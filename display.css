@@ -1,0 +1,45 @@
+body{
+    background: whitesmoke;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    background: teal;
+    text-transform: uppercase;
+}
+
+.data{
+    padding: 30px 60px;
+}
+
+table{
+   width: 100%;
+   border: 3px solid black;
+   text-align: center;
+}
+
+table,table tr, table td, table th{
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-collapse:collapse;
+}
+
+table thead{
+    background: lightgray;
+}
+
+#btn{
+    margin-bottom: 10px;
+    padding: 10px;
+    background: blue;
+    border-radius: 5px;
+    
+}
+
+#btn a{
+    color: whitesmoke;
+    text-decoration: none;
+    outline: none;
+    
+}

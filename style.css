@@ -1,0 +1,63 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f0f0f0;
+ }
+
+h1{
+    text-align: center;
+    padding: 20px;
+    background-color: teal;
+    text-transform: uppercase;
+} 
+
+.myform{
+    background: steelblue;
+    padding: 20px;
+    border-radius: 6px;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label{
+    display: block;
+     font-weight: 550;
+}
+
+div.myform div.input-field input{
+ 
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 8px;
+    outline: none;
+    margin-bottom: 20px;
+    margin-top: 3px;
+
+
+}
+
+
+button{
+    width: 100%;
+    padding: 8px;
+    background: lightblue;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+button:hover{
+    background: rgb(240, 224, 11);
+    color: aqua;
+}
